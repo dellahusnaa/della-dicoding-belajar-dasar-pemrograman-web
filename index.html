@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halaman Profil ELizabeth II</title>
+
+  <!-- My Own Styles -->
+  <link rel="stylesheet" href="assets/styles/style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#beranda">Beranda</a>
+        </li>
+        <li>
+          <a href="#daftar-isi">Daftar isi</a>
+        </li>
+        <li>
+          <a href="#content">Konten</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="hero" id="beranda">
+      <div class="content-hero">
+        <p>Ratu Terlama Dalam Sejarah Inggris</p>
+        <h1>Elizabeth Alexandra Mary</h1>
+        <p>Ingin tahu lebih dalam tentang kehidupan dan warisannya? Jelajahi selengkapnya di sini!</p>
+        <br>
+        <button class="btn" onclick="scrollToContent()">Mulai Jelajahi</button>
+      </div>
+      <img class="img-hero" src="assets/image/photo-hero.png" />
+    </div>
+  </header>
+
+  <main id="daftar-isi">
+    <!-- Konten Daftar Isi -->
+    <div class="daftar-isi">
+      <h1>Daftar Isi</h1>
+      <ol>
+        <li><a onclick="smoothScroll('content')">Masa Kecil</a></li>
+        <li><a onclick="smoothScroll('artikel2')">Penerus Kerajaan Inggris</a></li>
+        <li><a onclick="smoothScroll('artikel3')">Ratu Elizabeth II Menikah</a></li>
+        <ul>
+          <li><a onclick="smoothScroll('artikel3-1')">Anak</a></li>
+        </ul>
+        <li><a onclick="smoothScroll('artikel4')">Ratu Kerajaan Inggris</a></li>
+        <ul>
+          <li><a onclick="smoothScroll('artikel4-1')">Ratu Inggris Terlama</a></li>
+          <li><a onclick="smoothScroll('artikel4-2')">Lambang</a></li>
+        </ul>
+        <li><a onclick="smoothScroll('artikel5')">Kematian Ratu Elizabeth</a></li>
+      </ol>
+    </div>
+
+    <div class="content" id="content">
+      <!-- Konten artikel -->
+      <div class="artikel" id="artikel">
+        <article id="artikel1" class="box-article">
+          <h1>Masa Kecil</h1>
+          <!-- <div class="img-artikel"> -->
+            <figure>
+              <img src="assets/image/masa-kecil.jpeg" alt="sejarah" class="img-artikel1" />
+            </figure>
+          <!-- </div> -->
+
+          <p>
+            Ia adalah anak pertama dari Pangeran Albert yang dikenal sebagai Raja George VI dan ibunya bernama Elizabeth
+            Angela Marguerite Bowes-Lyon. Ratu Elizabeth II memiliki seorang saudara perempuan bernama Putri Margaret.
+          </p>
+
+          <p>
+            Ratu Elizabeh II sejak kecil mendapatkan pendidikan dengan sistem ‘Home Scholing’, ia banyak belajar
+            mengenai
+            pengetahuan sejarah dan juga hukum mengingat ia merupakan salah satu puteri kerajaan Inggris.
+          </p>
+
+          <p>
+            Di sela-sela aktfitasnya sebagai puteri mahkota, Elizabeth ketika itu sangat menggemari menunggang kuda dan
+            juga memelihara anjing.
+          </p>
+
+          <p>
+            Tak ada yang menyangka bahwa Elizabeth II bakal menjadi puteri mahkota. Berawal ketika raja George V
+            meninggal
+            dunia, paman Elizabeth yang bernama pangeran Edward VIII kemudian naik menjadi raja.
+          </p>
+
+          <p>
+            Namun tanpa diduga, Raja Edward kemudian meletakkan jabatannya sebagai raja dan memilih untuk menikahi janda
+            sosialita bernama Wallis Simpson.
+          </p>
+
+          <p>
+            Keputusan Pangeran Edward kemudian membuat krisis konstitusi di lingkungan kerajaaan Inggris. Kejadian ini
+            membuat ayah Elizabeth yakni pangeran Albert naik tahta menjadi raja Inggris dengan nama Raja George VI yang
+            secara otomatis membuat Elizabeth menjadi puteri mahkota kerajaan Inggris sebab ia tidak memiliki saudara
+            laki-laki.
+          </p>
+        </article>
+
+        <article id="artikel2" style="padding-top: 10vh;">
+          <div class="box-article">
+            <h1>Penerus Kerajaan Inggris</h1>
+
+            <p>
+              Sebagai penerus kerajaan Inggris, Elizabeth kemudian bergelar Her Royal Highness The Proncess Elizabeth.
+              Setelah mendapat beasiswa pendidikan dari Eton College, ia kemudian belajar bahasa perancis.
+            </p>
+
+            <p>
+              Sebuah sekolah khusus dibentuk bernama First Buckingham Palace Company agar Elizabeth dapat belajar dan
+              bisa
+              bersosialisasi dengan anak-anak seusianya.
+            </p>
+
+            <p>
+              Elizabeth kemudian masuk sekolah kepanduan (Pramuka Khusus Puteri) bernama Sea Ranger pada tahun 1937.
+              Pada
+              tahun 1939, ketika Inggris terlibat dalam perang dunia II dan sering diserang bom oleh tentara Jerman
+              melalui udara, Elizabeth bersama kedua orang tuanya tetap berada di London dan menolak dievakuasi keluar
+              negeri. Mereka lebih memilih tetap bersama dengan rakyat Inggris dalam pengungsian.
+            </p>
+          </div>
+        </article>
+
+        <article id="artikel3" style="padding-top: 10vh;">
+          <div class="box-article">
+            <h1>Ratu Elizabeth II Menikah</h1>
+
+            <p>
+              Setelah perang dunia kedua selesai, Puteri Elizabeth muda meresmikan pertunangannya dengan Pangeran Philip
+              dari Yunani dan Denmark pada tanggal 9 juli 1947. Pertemuan mereka pertama kali terjadi pada tahun 1934
+              dan
+              kemudian pada tahun 1937.
+            </p>
+
+            <p>
+              Pertunangan ini sempat menimbulkan kontroversi di Inggris karena asal usulnya meskipun begitu beberapa
+              bulan
+              kemudian, mereka berdua resmi menikah pada tanggal 20 November 1947 di Westminster Abbey, Inggris.
+              Artikel diambil dari Biografiku.com. Silahkan di copy sebagai bahan referensi, Mohon cantumkan sumber :
+              https://www.biografiku.com/biografi-ratu-elizabeth-ii.
+            </p>
+
+            <p>
+              Sebelum pernikahannya dengan Elizabeth, Pangeran Philip terlebih dahulu menanggalkan status kebangsawanan
+              Yunani-Denmark nya dan memilih garis keturunan ibunya yang berasal dari Inggris. Ia juga berpindah agama
+              dari Yunani Ortodoks menjadi Anglikan. Dan mendapatkan sebutan Adipati Edinburgh.
+              Artikel diambil dari Biografiku.com. Silahkan di copy sebagai bahan referensi, Mohon cantumkan sumber :
+              https://www.biografiku.com/biografi-ratu-elizabeth-ii.
+            </p>
+
+            <p>
+              Satu tahun setelah pernikahannya dengan Pangeran Philip, Elizabeth yang kala itu masih berstatus puteri
+              kerajaa Inggris melahirkan putera pertama mereka yaitu Pangeran Charles. Pada tahun 1950, anak kedua
+              mereka
+              lahir yaitu Puteri Anne.
+              Artikel diambil dari Biografiku.com. Silahkan di copy sebagai bahan referensi, Mohon cantumkan sumber :
+              https://www.biografiku.com/biografi-ratu-elizabeth-ii.
+            </p>
+            <br>
+            <h3>Anak</h3>
+            <div id="artikel3-1">
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col" rowspan="2">Nama</th>
+                    <th scope="col" rowspan="2">Lahir</th>
+                    <th scope="col" colspan="2">Pernikahan</th>
+                    <th scope="col" rowspan="2">Anak</th>
+                    <th scope="col" rowspan="2">Cucu</th>
+                  </tr>
+                  <tr>
+                    <th scope="col">Tanggal</th>
+                    <th scope="col">Pasangan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" rowspan="3">Charles III, Raja Britania Raya</th>
+                    <td rowspan="3">14 November 1948</td>
+                    <td rowspan="2">29 Juli 1981 Bercerai 28 Agustus 1996</td>
+                    <td rowspan="2">Lady Diana Spencer</td>
+                    <td rowspan="1">William, Pangeran Wales</td>
+                    <td rowspan="1">Pangeran George dari Wales, Putri Charlotte dari Wales, Pangeran Louis dari Wales
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">Pangeran Harry, Adipati Sussex</td>
+                    <td rowspan="1">Pangeran Archie dari Sussex Putri Lilibet dari Sussex</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">9 April 2005</td>
+                    <td rowspan="1">Camilla Parker Bowles</td>
+                    <td colspan="2">Tidak Ada</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" rowspan="3">Anne, Putri Kerajaan</th>
+                    <td rowspan="3">15 Agustus 1950</td>
+                    <td rowspan="2">14 November 1973 Bercerai 28 April 1992</td>
+                    <td rowspan="2">Mark Phillips</td>
+                    <td rowspan="1">Peter Phillips</td>
+                    <td rowspan="1">Savannah Phillips Isla Phillips </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">Zara Tindall</td>
+                    <td rowspan="1">Mia Tindall Lena Tindall Lucas Tindall</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">12 Desember 1992</td>
+                    <td rowspan="1">Timothy Laurence</td>
+                    <td colspan="2">Tidak Ada</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" rowspan="2">Pangeran Andrew, Adipati York</th>
+                    <td rowspan="2">19 Februari 1960</td>
+                    <td rowspan="2">23 Juli 1986 Bercerai 30 Mei 1996</td>
+                    <td rowspan="2">Sarah Ferguson</td>
+                    <td rowspan="1">Putri Beatrice dari York</td>
+                    <td rowspan="1">Sienna Mapelli Mozzi</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">Putri Eugenie dari York</td>
+                    <td rowspan="1">August Brooksbank</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row" rowspan="2">Pangeran Edward, Adipati Edinburgh</th>
+                    <td rowspan="2"> 10 Maret 1964</td>
+                    <td rowspan="2">19 Juni 1999</td>
+                    <td rowspan="2">Sophie Rhys-Jones</td>
+                    <td rowspan="1">Lady Louise Windsor</td>
+                    <td rowspan="1">Tidak Ada</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="1">James, Earl dari Wessex</td>
+                    <td rowspan="1">Tidak Ada</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+
+        </article>
+
+        <article id="artikel4" style="padding-top: 10vh;">
+          <div class="box-article">
+            <h1>Ratu Kerajaan Inggris</h1>
+            <div class="artikel4">
+              <div>
+                <figure>
+                  <img src="assets/image/photo-artikel4.png" alt="sejarah" class="img-artikel4" />
+                  <figcaption>Potret Ratu saat Menjabat Menjadi Ratu Inggris </figcaption>
+                </figure>
+              </div>
+              <div>
+                <p>
+                  Pada tahun 1951, kondisi kesehatan ayah Elizabeth yakni Raja George VI menurun. Beberapa bulan
+                  kemudian
+                  tepatnya pada tanggal 6 Februari 1952, Raja George VI wafat.
+                </p>
+
+                <p>
+                  Pihak kerajaan Inggris kemudian meminta Elizabeth untuk memilih nama yang ia akan sandang ketika
+                  penobatannya sebagai Ratu Kerajaan Inggris. Elizabeth tetap menggunakan namanya sehingga ia kemudian
+                  dikenal
+                  dengan nama Ratu Elizabeth II.
+                </p>
+
+                <p>
+                  Penobatannya sebagai ratu kerajaan Inggris terjadi pada bulan 2 Juni 1953 beberapa bulan setelah
+                  kematian
+                  neneknya, Ratu Mary.
+                </p>
+
+                <p>
+                  Setelah naik tahta, Ratu Elizabeth II bersama dengan suaminya, Pangeran Philip pindah ke Istana
+                  Buckingham.
+                </p>
+
+                <p>
+                  Saat Elizabeth II menjadi Ratu Kerajaan Inggris, ia sudah melihat banyak negara bekas jajahan Inggris
+                  merdeka dan berubah menjadi negara persemakmuran.
+                </p>
+
+                <p>
+                  Selama masa pemerintahannya sebagai Ratu Inggris, Elizabeth II diketahui melahirkan anak ketiga dan
+                  keempat
+                  yaitu Pangeran Andrew dan Pangeran Edward.
+                </p>
+              </div>
+
+            </div>
+            <br>
+            <h3>Ratu inggris Terlama</h3>
+            <div id="artikel4-1">
+              <p>
+                Di masa pemerintahannya juga banyak negara-negara di Afrika yang menjadi bekas jajahan Inggris merdeka
+                dan membuat pemerintahan sendiri. Perlu diketahui bahwa Ratu Elizabeth II merupakan Ratu Inggris dengan
+                masa pemerintahan terlama di kerajaan Inggris.
+              </p>
+
+              <p>
+                Ia sudah menyaksikan banyak perdana menteri Inggris yang silih berganti memimpin Inggris dari Sir
+                Winston Churchill hingga saat ini yaitu Theresa May.
+              </p>
+
+              <p>
+                ELizabeth memimpin Inggris selama 72 tahun sejak penobatannya sebagai Ratu Inggris hingga ia menuutp
+                usia.
+              </p>
+
+            </div>
+
+            <br>
+            <h3>Lambang</h3>
+            <div id="artikel4-2">
+              <p>
+                Dari tanggal 21 April 1944, lambang resmi untuk Elizabeth berbentuk sebuah belah ketupat yang meniru
+                desain Lambang Britania Raya, dibedakan oleh tiga label di dalamnya yang menampilkan mawar Tudor
+                ditengahnya dan salib St. George di kedua sisinya.Setelah naik takhta, dia masih menggunakan
+                lambang yang bentuknya tidak jauh berbeda dengan lambang sebelumnya. Desain perisai juga digunakan
+                dalam Bendera Kerajaan Britania Raya. Elizabeth memiliki bendera pribadi untuk dipergunakan di Kanada,
+                Selandia Baru, Australia, Jamaika, Barbados, dan di negara-negara lainnya.
+              </p>
+
+              <div class="box">
+                <div class="box-lambang">
+                  <img src="assets/image/lambang1.png" />
+                  <figcaption>Lambang Kerajaan Putri Elizabeth (1944–1947)</figcaption>
+                </div>
+                <div class="box-lambang">
+                  <img src="assets/image/lambang2.png" />
+                  <figcaption>Lambang Kerajaan Putri Elizabeth, Adipati Wanita Edinburgh (1947–1952)</figcaption>
+                </div>
+                <div class="box-lambang">
+                  <img src="assets/image/lambang3.png" />
+                  <figcaption>Lambang Kerajaan Elizabeth II di Inggris, Wales, dan Irlandia Utara</figcaption>
+                </div>
+                <div class="box-lambang">
+                  <img src="assets/image/lambang4.png" />
+                  <figcaption>Lambang Kerajaan Elizabeth II di Skotlandia</figcaption>
+                </div>
+              </div>
+              <br>
+            </div>
+          </div>
+
+        </article>
+
+        <article id="artikel5" style="padding-top: 10vh;">
+          <div class="box-article">
+            <h1>Kematian Ratu Elizabeth</h1>
+
+            <p>
+              Pada 8 September 2022, Istana Buckingham merilis pernyataan yang berbunyi: "Menyusul evaluasi lebih lanjut
+              pagi ini, para dokter Ratu mengkhawatirkan kesehatan Yang Mulia dan telah merekomendasikan dia untuk tetap
+              berada di bawah pengawasan medis. Ratu tetap nyaman dan berada di Balmoral." Keluarga dekat Elizabeth
+              bergegas ke Balmoral untuk berada di sisinya. Dia meninggal "dengan damai" pada 15:10 BST pada usia
+              96, dengan dua anaknya, Charles dan Anne di sisinya. Kematiannya diumumkan kepada publik pada
+              18:30, memulai Operasi London Bridge dan, karena dia meninggal di Skotlandia, Operasi Unicorn.
+              Elizabeth adalah monarki pertama yang meninggal di Skotlandia sejak James V pada tahun 1542. Penyebab
+              kematiannya tercatat sebagai "usia tua".
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Konten samping -->
+      <div class="aside">
+        <aside>
+          <article id="profile" class="profile">
+            <header>
+              <h2>Elizabeth Alexandra Mary</h2>
+              <figure>
+                <img src="assets/image/foto-aside.jpg" class="img-aside" />
+                <figcaption>Potret Resmi, 1959</figcaption>
+              </figure>
+            </header>
+
+            <section>
+
+              <table>
+                <tr>
+                  <th>Berkuasa</th>
+                  <td>6 Februari 1952 – 8 September 2022 (70 tahun, 214 hari)td>
+                </tr>
+                <tr>
+                  <th>Kelahiran</th>
+                  <td>21 April 1926 Mayfair, London, Inggris</td>
+                </tr>
+                <tr>
+                  <th>Kematian</th>
+                  <td> 8 September 2022 (umur 96)</td>
+                </tr>
+                <tr>
+                  <th>Pasangan</th>
+                  <td>Philip, Adipati Edinburgh ​(meninggal 2021)</td>
+                </tr>
+                <tr>
+                  <th>Orang Tua</th>
+                  <td> George VI | Elizabeth Bowes-Lyon</td>
+                </tr>
+              </table>
+            </section>
+          </article>
+        </aside>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Belajar Dasar Pemrograman Web by Dicoding Academy &#169; 2024, Della Fauziyyah Husna</p>
+  </footer>
+
+  <script>
+    function scrollToContent() {
+      const content = document.getElementById('daftar-isi');
+      content.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function smoothScroll(targetId) {
+      const targetElement = document.getElementById(targetId);
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+
+</body>
+
+
+
+</html>
